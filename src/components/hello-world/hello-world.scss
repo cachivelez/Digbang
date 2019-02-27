@@ -1,0 +1,74 @@
+// general
+body{
+  background: #0575E6;
+  background: -webkit-linear-gradient(to top, #023d69, #084f85);
+  background: linear-gradient(to top, #023d69, #084f85);
+  background-size: cover;
+  min-height: 100vh;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+// card
+.card{
+  width: 350px;
+  background-color: #00000042;
+  padding: 15px;
+}
+
+// h1
+.h1Styles{
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+// total
+.total{
+  background-color: #00000017;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  h2{
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: right;
+    margin: 10px;
+  }
+  h3{
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px;
+  }
+}
+
+.btnContent{
+  display: flex;
+}
+// btn-ok
+.btnOk{
+  background-color: #17aa8c;
+  color:white;
+  border:none;
+  width: calc(70% - 10px);
+  margin: 5px;
+  min-height: 35px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+// btn-details
+.btnDetails{
+  background-color: #0a548a;
+  color:white;
+  border:none;
+  width: calc(30% - 10px);
+  margin: 5px;
+  cursor: pointer;
+  min-height: 35px;
+}
