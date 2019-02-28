@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import HelloWorld from './components/hello-world';
+import Calculator from './components/calculator';
 
 class App extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   render() {
-    return React.createElement(HelloWorld, null, null);
+    return React.createElement(Calculator, null, null);
   }
 }
 
