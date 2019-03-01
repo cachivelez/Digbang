@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   render() {
-    return React.createElement(Calculator, null, null);
+    return <Calculator />;
   }
 }
 
